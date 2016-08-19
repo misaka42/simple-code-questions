@@ -17,5 +17,5 @@ mocha question-isObjectEqual
 
 ### 目前的进度
 
-* isObjectEqual (deeply, but without circular references)
-* flattenArray
+* [isObjectEqual (deeply, but without circular references)](question-isObjectEqual.js)
+* [flattenArray](question-flattenArray.js)
