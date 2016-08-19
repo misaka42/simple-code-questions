@@ -12,9 +12,10 @@
 
 ```
 npm i
-mocha question-1-isObjectEqual
+mocha question-isObjectEqual
 ```
 
 ### 目前的进度
 
 * isObjectEqual (deeply, but without circular references)
+* flattenArray

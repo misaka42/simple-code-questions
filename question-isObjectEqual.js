@@ -20,7 +20,7 @@ function isObjectEqual (a, b) {
   return KeysOfA.every(key => isObjectEqual(a[key], b[key]))
 }
 
-describe('Array', function() {
+describe('isObjectEqual', function() {
   it('should equal when both undefined', function() {
     assert.ok(isObjectEqual())
   });
