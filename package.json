@@ -1,0 +1,21 @@
+{
+  "name": "simple-code-questions",
+  "version": "0.0.1",
+  "description": "some simple code questions with unit test, for interview fe-engineer",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppq1991/simple-code-questions.git"
+  },
+  "author": "ppq1991@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ppq1991/simple-code-questions/issues"
+  },
+  "homepage": "https://github.com/ppq1991/simple-code-questions#readme",
+  "dependencies": {
+    "mocha": "^3.0.2"
+  }
+}
