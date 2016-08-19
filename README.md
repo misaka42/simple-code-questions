@@ -12,7 +12,7 @@
 
 ```
 npm i
-mocha question-isObjectEqual
+./node_modules/mocha/bin/mocha question-isObjectEqual
 ```
 
 ### 目前的进度
