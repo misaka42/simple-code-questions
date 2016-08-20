@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/ppq1991/simple-code-questions.svg?style=svg)](https://circleci.com/gh/ppq1991/simple-code-questions)
+
 ### 一些简单的前端代码面试题
 
 每次现场面试工程师之前，总有各种各样的事情在忙，不一定有时间能提前根据简历准备相应的问题。
@@ -12,7 +14,7 @@
 
 ```
 npm i
-./node_modules/mocha/bin/mocha question-isObjectEqual
+npm test
 ```
 
 ### 目前的进度

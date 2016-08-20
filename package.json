@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "some simple code questions with unit test, for interview fe-engineer",
   "scripts": {
-    "test": ""
+    "test": "./node_modules/mocha/bin/mocha question-*"
   },
   "repository": {
     "type": "git",
