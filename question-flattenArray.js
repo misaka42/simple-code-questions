@@ -13,7 +13,7 @@ function flatten (arr = []) {
     }
   }
 
-  arr.forEach(item => { recurison(item) })
+  recurison(arr)
 
   return newArr
 }
