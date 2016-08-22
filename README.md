@@ -21,3 +21,4 @@ npm test
 
 * [isObjectEqual (deeply, but without circular references)](question-isObjectEqual.js)
 * [flattenArray](question-flattenArray.js)
+* [objectAssign](question-objectAssign.js)
