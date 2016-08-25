@@ -39,6 +39,7 @@ describe('isObjectEqual', function() {
     assert.ok(isObjectEqual({}, {}))
     assert.ok(isObjectEqual([], []))
     assert.ok(isObjectEqual([1], [1]))
+    assert.ok(isObjectEqual([1, { a: 1 }], [1, { a: 1 }]))
     assert.ok(isObjectEqual({ a: 1 }, { a: 1 }))
     assert.ok(isObjectEqual({ a: 1, b: 2 }, { b: 2, a: 1 }))
   });
