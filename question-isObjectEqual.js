@@ -39,6 +39,8 @@ describe('isObjectEqual', function() {
     assert.ok(isObjectEqual({}, {}))
     assert.ok(isObjectEqual([], []))
     assert.ok(isObjectEqual([1], [1]))
+    assert.ok(isObjectEqual([1, 2], [1, 2]))
+    assert.ok(isObjectEqual([1, null, {}], [1, null, {}]))
     assert.ok(isObjectEqual([1, { a: 1 }], [1, { a: 1 }]))
     assert.ok(isObjectEqual({ a: 1 }, { a: 1 }))
     assert.ok(isObjectEqual({ a: 1, b: 2 }, { b: 2, a: 1 }))
@@ -48,6 +50,10 @@ describe('isObjectEqual', function() {
     assert.ok(isObjectEqual({ a: {} }, { a: {} }))
     assert.ok(isObjectEqual({ a: { b: 1 } }, { a: { b: 1 } }))
     assert.ok(isObjectEqual({ a: { b: 1 }, b: 1 }, { b: 1, a: { b: 1 } }))
+  });
+
+  it('should not equal with different order', function() {
+    assert.ok(!isObjectEqual([1, 2], [2, 1]))
   });
 
   it('should not equal when one of them is undefined', function() {
