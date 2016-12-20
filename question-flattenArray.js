@@ -7,7 +7,7 @@ function flatten (arr = []) {
 
   function recurison (item) {
     if (Array.isArray(item)) {
-      item.forEach(i => { recurison(i) })
+      item.forEach(recurison)
     } else {
       newArr.push(item)
     }
