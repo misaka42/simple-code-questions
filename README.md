@@ -23,3 +23,30 @@ npm test
 * [flattenArray](question-flattenArray.js)
 * [objectAssign](question-objectAssign.js)
 * [deepClone](question-deepClone.js)
+
+---
+
+### 应用类
+
+下面是一些非常基础的，DOM 应用类的前端考题，没有任何奇技淫巧，只是用来检测前端基本功是否合格。
+
+##### 问题一(初级)
+
+```html
+<ul id="list" class="foo">
+  <li>#0</li>
+  <li><span>#1</span></li>
+  <li>#2</li>
+  <li>#3</li>
+  <li><ul><li>#4</li></ul></li>
+  ...
+  <li><a href="//v2ex.com">#99998</a></li>
+  <li>#99999</li>
+  <li>#100000</li>
+</ul>
+```
+
+* 为 `<ul>` 添加一个类 `bar`
+* 删除第 10 个 `<li>`
+* 在第 500 个 `<li>` 后面增加一个 `<li>` , 其文字内容为 `<v2ex.com />`
+* 点击任意 `<li>` 弹窗显示其为当前列表中的第几项。
